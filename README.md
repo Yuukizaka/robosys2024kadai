@@ -10,7 +10,7 @@ No.1~151までの番号を入力するとそのポケモンの名前が出てく
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 ```
-$git clone git@github.com:Yuukizaka/robosys2024kadai.git
+$git clone https://github.com/Yuukizaka/robosys2024kadai.git
 $cd robosyskadai
 $chmod +x zukan
 $./zukan

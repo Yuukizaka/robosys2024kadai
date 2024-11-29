@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024 Yuuki Ishizaka
 ### SPDX-License-Identifier: BSD-3-Clause
 
 # エラー処理関数

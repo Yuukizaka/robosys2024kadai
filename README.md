@@ -1,5 +1,4 @@
-# robosys2024kadai
-[![test](https://github.com/Yuukizaka/robosys2024kadai/actions/workflows/test.yml/badge.svg)](https://github.com/Yuukizaka/robosys2024kadai/actions/workflows/test.yml)
+# robosys2024kadai　[![test](https://github.com/Yuukizaka/robosys2024kadai/actions/workflows/test.yml/badge.svg)](https://github.com/Yuukizaka/robosys2024kadai/actions/workflows/test.yml)
 ポケモン図鑑
 No.1~151までの番号を入力するとそのポケモンの名前が出てくるというものです。
 

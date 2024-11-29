@@ -15,7 +15,8 @@ $cd robosyskadai
 $chmod +x zukan
 $./zukan
 ```
-##使用例
+
+## 使用例
 ./zukan
 
 No1~150までの知りたいポケモンの番号を入力してください:1

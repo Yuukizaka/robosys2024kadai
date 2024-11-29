@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuuki Ishizaka
+# SPDX-License-Identifier: BSD-3-Clause
 
 import csv
 
@@ -10,10 +12,10 @@ def main():
         num = int(input("No1~150までの知りたいポケモンの番号を入力してください:"))
 
         
-        print(f"{num}: {pokedex.get(num, '1〜151の範囲内で数字を入力してください。')}")
+        print(f"{num}: {pokedex.get(num, 'No1〜151の範囲内で数字を入力してください。')}")
                 
     except ValueError:
-        print("カントー地方までです。")
+        print("番号で入力してください")
 
 if __name__ == "__main__":
     main()

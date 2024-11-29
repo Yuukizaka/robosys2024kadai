@@ -15,9 +15,11 @@ $cd robosyskadai
 $chmod +x zukan
 $./zukan
 ```
-使用例
+##使用例
 ./zukan
+
 No1~150までの知りたいポケモンの番号を入力してください:1
+
 1: フシギダネ - くさ/どくタイプ
 
 ## サンプル
@@ -40,15 +42,22 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-## ライセンス
-©ishizakayuuki
 
-## クレジット
-(使用したライブラリや貢献者の名前を記す。)
+##使用言語
+python
+    テスト済みバージョン 3.10~3.12対応	
+
+##テスト環境
+
+- 対応OS　Ubuntu 20.04  ~ 22.04
+
+## ライセンス
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+- © 2024 yuuki ishizaka
 
 ##参考
-https://rikapoke.hatenablog.jp/entry/pokemon_datasheet_gne7
-https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
-https://qiita.com/koeri3/items/f85a617dcb6efebb2cab 
-https://github.com/greymd/tmux-xpanes
+- https://rikapoke.hatenablog.jp/entry/pokemon_datasheet_gne7
+- https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
+- https://qiita.com/koeri3/items/f85a617dcb6efebb2cab 
+- https://github.com/greymd/tmux-xpanes
 DuC

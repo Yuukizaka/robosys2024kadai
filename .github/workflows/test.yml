@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2024 Yuuki Ishizaka
 # SPDX-License-Identifier: BSD-3-Clause
-
 name: test        #name: ワークフローの名前
   on: push          #on: いつこのワークフローを走らせるか
   jobs:             #走らせたい処理（ジョブ）のリスト

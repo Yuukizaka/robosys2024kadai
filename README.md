@@ -26,6 +26,9 @@ No1~150までの知りたいポケモンの番号を入力してください:1
 
 ## サンプル
 ```
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuuki Ishizaka
+# SPDX-License-Identifier: BSD-3-Clause
 import csv
 
 def main():
@@ -45,11 +48,11 @@ if __name__ == "__main__":
     main()
 ```
 
-##使用言語
-python
+## 使用言語
+- python
     テスト済みバージョン 3.10~3.12対応	
 
-##テスト環境
+## テスト環境
 
 - 対応OS　Ubuntu 20.04  ~ 22.04
 
@@ -57,7 +60,7 @@ python
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 yuuki ishizaka
 
-##参考
+## 参考
 - https://rikapoke.hatenablog.jp/entry/pokemon_datasheet_gne7
 - https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
 - https://qiita.com/koeri3/items/f85a617dcb6efebb2cab 

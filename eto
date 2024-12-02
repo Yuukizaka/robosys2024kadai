@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuuki Ishizaka
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def get_eto(year):
+    # 干支のリスト
+    eto_list = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"]
+
+    # 西暦を12で割った余りで干支を決定
+    eto_index = year % 12
+    return eto_list[eto_index]
+
+if __name__ == "__main__":
+    try:
+        # 標準入力から西暦を取得
+        year = int(sys.stdin.read().strip())  # echoから入力された値を取得
+        eto = get_eto(year)
+        print(f"{year} 年の干支は{eto}です。")
+    except ValueError:
+        print("無効な入力です。西暦の数字を入力してください。")

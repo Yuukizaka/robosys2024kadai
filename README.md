@@ -18,7 +18,7 @@ $ cd robosyskadai
 
 - 最初に実行をする場合、実行権限を与えてください
 ```
-$ chmod +x zukan
+$ chmod +x eto
 ```
 
 - 実行する際はこの形で入力してください

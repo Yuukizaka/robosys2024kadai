@@ -1,0 +1,22 @@
+import sys
+
+def get_eto(year):
+    # 干支のリスト
+    eto_list = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"]
+
+    # 西暦を12で割った余りで干支を決定
+    eto_index = year % 12
+    return eto_list[eto_index]
+
+if __name__ == "__main__":
+    input_data = sys.stdin.read().strip()
+    try:
+        year = int(input_data)
+        eto = get_eto(year)
+        # 結果を簡素に表示
+        print(eto)
+    except ValueError:
+        # 無効な入力が検出された場合、即座に終了
+        sys.stderr.write("Error: Invalid input. Please enter a valid year.\n")
+        sys.exit(1)
+
